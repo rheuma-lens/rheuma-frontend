@@ -1,0 +1,31 @@
+# Dependencies
+node_modules
+.pnp
+.pnp.js
+
+# Build
+.next
+out
+build
+storybook-static
+
+# Testing
+coverage
+test-results
+playwright-report
+blob-report
+
+# Misc
+.DS_Store
+*.pem
+npm-debug.log*
+
+# Env
+.env*
+
+# TypeScript
+next-env.d.ts
+*.tsbuildinfo
+
+# Storybook
+*storybook.log
